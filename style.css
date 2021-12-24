@@ -1,0 +1,256 @@
+body{
+    margin: 20px;
+    background-color:white;
+    border:black solid 5px;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    width: 1300px;
+    border-bottom: black solid 5px;
+
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #949494;
+    height: 600px;
+    width:  1300px;
+  
+}
+.section1-left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.section1-left-column_box1 {
+     background-color:#BEBEBE;
+     border: black solid 5px;
+     height:150px;
+     width: 325px;
+     
+}
+
+.section1-left-column-box2 {
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 150px;
+    width: 325px;
+  
+}
+.section1-left-column-box3 {
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 150px;
+    width: 325px;
+
+}
+.section1-middle-column{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    margin-top: 25px;
+    height: 550px;
+    width: 250px;
+
+}
+
+.section1-right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.section1-right-column_box1{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 150px;
+    width: 325px;
+}
+.section1-right-column-box2{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 150px;
+    width: 325px;
+}
+
+.section1-right-column-box3{
+    background-color:#BEBEBE;
+    border: black solid 5px;
+    height: 150px;
+    width: 325px;
+
+}
+.section2{
+    display:flex;
+    flex-direction: row;
+    border-top: black solid 5px;
+     
+}
+
+.section2-left-column{
+    display: flex;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    border-right: black solid 2.5px;
+}
+.section2-left-column_box1{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 250px;
+    margin:15px;
+
+}
+.section2-left-column-box2{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 250px;
+    margin:15px;
+ }
+
+.section2-left-column-box3{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 560px;
+    margin:15px;
+
+}
+.section2-right-column{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    border-left: black solid 2.5px;
+
+}
+
+.section2-right-column_box1{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 560px;
+    margin:15px;
+
+}
+.section2-right-column-box2{
+     background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 250px;
+    margin:15px;
+
+}
+
+.section2-right-column-box3{
+    background-color: #BEBEBE;
+    border: black solid 5px;
+    height: 200px;
+    width: 250px;
+    margin:15px;
+  
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    background-color:#BEBEBE;
+    border-top:black solid 5px;
+    justify-content: space-evenly;
+
+}
+.section3-column1{
+    border-right: black solid 2.5px ;
+    
+
+}
+.section3-column2{
+    border-right: black solid 2.5px; 
+    border-left: black solid 2.5px;
+
+}
+
+.section3-column3{
+    border-right: black solid 2.5px; 
+    border-left: black solid 2.5px;
+    
+}
+
+.section3-column4{
+    border-left: black solid 2.5px;
+}
+.section3-column1-box1{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 225px;
+    border: #000000 solid 5px;
+    margin: 43px;
+    
+}
+.section3-column1-box2{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 345px;
+    border: black solid 5px;
+    margin: 43px;
+   
+}
+.section3-column2-box1{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 225px;
+    border: black solid 5px;
+    margin: 43px;
+   
+}
+.section3-column2-box2{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 345px;
+    border: black solid 5px;
+    margin: 43px;
+   
+}
+.section3-column3-box1{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 225px;
+    border: black solid 5px;
+    margin: 43px;
+   
+
+}
+.section3-column3-box2{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 345px;
+    border: black solid 5px;
+    margin: 43px;
+    
+}
+.section3-column4-box1{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 225px;
+    border: black solid 5px;
+    margin: 43px;
+
+}
+.section3-column4-box2{
+    background-color:#EBECF0;
+    width: 225px;
+    height: 345px;
+    border: black solid 5px;
+    margin: 43px;
+
+
+    
+}
